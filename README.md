@@ -2,7 +2,7 @@
 1. สร้าง Folder ลงเครื่องตัวเองโดยใชั
   ``` git clone https://github.com/stsnx/nekopedia-front.git```
 2. โปรเจกต์นี้ใช้ bootstrap กับ react-router-dom ถ้ารันแล้ว error อาจจะเพราะยังไม่ได้ติดตั้ง วิธีติดตั้งคือ 
-  เข้าไปที่โปรเจกต์ เปิด terminal แล้วใช้
+  เข้าไปที่โปรเจกต์ เปิด terminal แล้วใช้<br />
   ```npm install bootstrap```<br />
   ```npm install react-router-dom ```<br />
  ลองไปเช็คที่ package.json ว่าติดตั้งสำเร็จหรือไม่ <br />
