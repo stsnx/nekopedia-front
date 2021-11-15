@@ -1,0 +1,17 @@
+.cardImg {
+    height: 125px;
+    width: 150px;
+    margin:  25px 50px 25px 70px;
+}
+.g-4{
+    margin: 50px;
+}
+.cardTitle{
+    text-align: center;
+}
+.cardText{
+    overflow: hidden;
+}
+/*.card {
+    height: 300px;
+}*/
