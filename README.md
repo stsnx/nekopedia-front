@@ -12,7 +12,7 @@
   ```git remote add origin https://github.com/stsnx/nekopedia-front.git ``` (เพื่ม remote repository)<br />
   ```git pull origin``` (pull remote repository)<br />
   ```git add .``` <br />
-  ```git commit -m "commeht"``` ใน "commeht" ไว้ใส่คำอธิบายว่าทำอะไรมา<br />
+  ```git commit -m "comment"``` ใน "comment" ไว้ใส่คำอธิบายว่าทำอะไรมา<br />
   ```git checkout -b abcd``` โดย abcd คือชื่อ branch ใหม่ถ้ายังไม่มี หรือ  ```git checkout abcd``` กรณีมี branch แล้ว<br />
   *** สามารถตรวจสอบ branch ได้ด้วย ```git branch -v```***<br />
   ```git push -u origin abcd``` (push to remote repository)<br />
