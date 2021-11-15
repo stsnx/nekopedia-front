@@ -1,70 +1,24 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+หากยังไม่เคย clone ลงไปเลย วิธ๊ clone มีดังนี้
+1. สร้าง Folder ลงเครื่องตัวเองโดยใชั
+  ``` git clone https://github.com/stsnx/nekopedia-front.git```
+2. โปรเจกต์นี้ใช้ bootstrap กับ react-router-dom ถ้ารันแล้ว error อาจจะเพราะยังไม่ได้ติดตั้ง วิธีติดตั้งคือ 
+  เข้าไปที่โปรเจกต์ เปิด terminal แล้วใช้
+  ```npm install bootstrap```<br />
+  ```npm install react-router-dom ```<br />
+ ลองไปเช็คที่ package.json ว่าติดตั้งสำเร็จหรือไม่ <br />
+  ![image](https://user-images.githubusercontent.com/69145525/141767920-c90882eb-7b99-47aa-a48d-0ab16fa03413.png)
+3. เมื่อเรียบร้อยแล้วฝากแบกด้วย
+4. เมื่อแบกเสร็จแล้วอยากจะ push ขึ้นมาที่นี่ ให้ทำดังนี้ 
+  ```git remote add origin https://github.com/stsnx/nekopedia-front.git ``` (เพื่ม remote repository)<br />
+  ```git pull origin``` (pull remote repository)<br />
+  ```git add .``` <br />
+  ```git commit -m "commeht"``` ใน "commeht" ไว้ใส่คำอธิบายว่าทำอะไรมา<br />
+  ```git checkout -b abcd``` โดย abcd คือชื่อ branch ใหม่ถ้ายังไม่มี หรือ  ```git checkout abcd``` กรณีมี branch แล้ว<br />
+  *** สามารถตรวจสอบ branch ได้ด้วย ```git branch -v```***<br />
+  ```git push -u origin abcd``` (push to remote repository)<br />
+  ***ห้าม push ขี้น Main โดยเด็ดขาด ใคร push ขี้น Main กูตีมือหัก***<br />
+ 5. เมื่อ push ขี้นมาแล้ว ให้เข้าไปที่ github brouser แล้ว ไปที่ Compare & Pull request <br />
+ 6. ไปเรียกเจ้าของ repo นี้มาดูแล้วให้มัน merge <br />
+ 
+ สุดท้ายนี้ <br />
+ ```แ บ ก ด้ ว ย ค รั บ```
