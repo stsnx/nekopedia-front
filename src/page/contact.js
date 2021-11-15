@@ -1,9 +1,9 @@
-function Store(){
+function ContactUs(){
     return(
         <div>
-        <p>store</p>
+        <p>contact page</p>
         <img src='unknown.png' alt='kiat' />
         </div>
     )
 }
-export default Store;
+export default ContactUs;
