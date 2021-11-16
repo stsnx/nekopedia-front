@@ -1,10 +1,11 @@
 import React from "react";
-import {Button} from "react-bootstrap";
-import {Card,Row,Col} from "react-bootstrap";
+import {Button,Card,Row,Col} from "react-bootstrap";
 import {namelis} from "../testlist"
 import './type.css'
+import SearchBar from "../components/SearchBar";
+import nameList from "./name.json"
 function Type(){
-    const data = namelis;
+    const data = nameList;
     const info =[
         {
             id : 1,
@@ -35,25 +36,11 @@ function Type(){
         <div>
         <p>Type</p>
         <img src='unknownka.png' alt='kanut' />
-        <div className="grid">{data.map(renders)}</div>
-        <Row xs={1} md={2} className="g-4">
-        { data.map((lis, index) => (
-        <Col>
-        <Card className="card" style={{ width: '18rem' }}key = {index} >
-        <Card.Img className="cardImg" variant="top" src="holder.js/100px160" src={lis.img}  />
-        <Card.Body>
-          <Card.Title className="cardTitle">{lis.title}</Card.Title>
-            <Card.Text className="cardText">
-                {lis.des}
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-                </Card>
-            </Col>
-            ))}
-        </Row>
+        <div >
+        <SearchBar placeholder="eath" data={nameList}/>
+        </div>
         </div>
         
     )
-};
+}
 export default Type;
