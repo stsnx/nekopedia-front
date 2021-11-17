@@ -6,11 +6,18 @@
 .g-4{
     margin: 50px;
 }
-.cardTitle{
-    text-align: center;
+
+
+.banner{
+    padding: 1% 40% 0% 40%;
+    
 }
-.cardText{
-    overflow: hidden;
+.banner_img{
+    align-items: center;
+}
+.searchbox{
+    position: absolute;
+    margin-left: 50%;
 }
 /*.card {
     height: 300px;

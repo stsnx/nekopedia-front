@@ -1,6 +1,8 @@
 import React,{useState} from 'react';
-import {Button,Card,Row,Col} from "react-bootstrap";
-function SearchBar({placeholder,data}){
+import {Row,Col} from "react-bootstrap";
+import DisplayCard from './DisplayCard';
+import './searchbar.css';
+function SearchBar({placeholder,data,thispath}){
     const [filteredData,setFilteredData] = useState(data);
     const handleFilter =(e) => {
         const searchWord = e.target.value 
@@ -8,7 +10,6 @@ function SearchBar({placeholder,data}){
             return Object.keys(item).some(key=>{
                 return item[key].toString().toLowerCase().includes(searchWord.toLowerCase())
             })
-           /* return value.title.toLowerCase().includes(searchWord.toLowerCase())*/
         });
         if (searchWord===""){
             setFilteredData(data)
@@ -25,21 +26,12 @@ function SearchBar({placeholder,data}){
             </div>
             { filteredData.length !=0 &&(
             <div>
-                <Row xs={1} md={2} className="g-4">
+                <Row xs={1} sm={2} md={3} xl={4} className="g-4">
                 {filteredData.map((lis,index)=>{
                     return (
                         <Col>
-                        <Card className="card" style={{ width: '18rem' }}key = {index} >
-                        <Card.Img className="cardImg" variant="top" src="holder.js/100px160" src={lis.img}  />
-                        <Card.Body>
-                          <Card.Title className="cardTitle">{lis.title}</Card.Title>
-                            <Card.Text className="cardText">
-                                {lis.des}
-                                </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
-                                </Card.Body>
-                                </Card>
-                            </Col>
+                        <DisplayCard className="card__in" prop={lis} index={index}/>
+                        </Col>
                         
                     )
 
