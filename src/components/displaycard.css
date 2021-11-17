@@ -1,0 +1,30 @@
+.card{
+    height: auto;
+    width :auto;
+}
+.cardText{
+    height: 120px;
+    white-space: normal; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.cardImg{
+    height: 2 em;
+    width: auto;
+    margin: 10% 15% 5% 15%;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #FF9B57;
+    background-color: cutom-color;
+    border-color: #FF9B57;
+    border-color: cutom-cor;
+}
+.btn-primary:hover{
+    color: #fff;
+    background-color: #FF6F0E;
+    background-color: cutom-color;
+    border-color: #FF6F0E;
+    border-color: cutom-cor;
+}
+
