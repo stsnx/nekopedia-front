@@ -1,5 +1,5 @@
 import React from "react";
-import './type.css';
+import './pagecontent.css';
 import SearchBar from "../components/SearchBar";
 import nameList from "./name.json";
 
