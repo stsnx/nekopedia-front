@@ -14,7 +14,7 @@ function DisplayCard({prop,index}){
                       {prop.des}
                       </Card.Text>
                       
-                      <Button variant="primary" as = {Link} to={pathnext} >Go somewhere</Button>
+                      <Button variant="light" as = {Link} to={pathnext} >Click for more detail</Button>
                       </Card.Body>
               </Card>
               

@@ -13,18 +13,24 @@
     width: auto;
     margin: 10% 15% 5% 15%;
 }
-.btn-primary {
+.btn-light {
     color: #fff;
     background-color: #FF9B57;
     background-color: cutom-color;
     border-color: #FF9B57;
     border-color: cutom-cor;
+    cursor:pointer;
+    user-select:none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
 }
-.btn-primary:hover{
+.btn-light:hover{
     color: #fff;
     background-color: #FF6F0E;
     background-color: cutom-color;
     border-color: #FF6F0E;
     border-color: cutom-cor;
-}
 
+}

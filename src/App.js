@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/Navbar';
 import './App.css';
 import nameList from "./page/name.json";
+import foodTemp from "./page/foodtemp.json";
 import Home from './page/home';
 import ContactUs from './page/contact';
 import Type from './page/type'
@@ -32,7 +33,12 @@ function App (){
                         <Route path="/home"element={<Home />}/> 
                         <Route path="/"element={<Home />}/> 
                         {nameList.map((lis,index)=>{
-                          let thispath="/type/"+String(lis.title);
+                          let thispath="/type/"+String(lis.title).replace(" ","%20");
+                          return (
+                        <Route path={thispath} element={<Temporary data={lis} title={`this.path`}/>}/> 
+                          );})}
+                        {foodTemp.map((lis,index)=>{
+                          let thispath="/advice/food/"+String(lis.title).replace(" ","%20");
                           return (
                         <Route path={thispath} element={<Temporary data={lis} title={`this.path`}/>}/> 
                           );})}
