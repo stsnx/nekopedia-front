@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/Navbar';
 import './App.css';
-import nameList from "./page/name.json"
+import nameList from "./page/name.json";
 import Home from './page/home';
 import ContactUs from './page/contact';
 import Type from './page/type'
