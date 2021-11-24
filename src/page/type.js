@@ -1,10 +1,21 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import './pagecontent.css';
 import SearchBar from "../components/SearchBar";
-import nameList from "./name.json";
+
 
 function Type(){
-    
+    const [nameList,setNameList] = useState([])
+    useEffect(async() => {
+    try{
+        const res = await fetch('https://djangotestapi1234.herokuapp.com/apiblog/blog-list/')
+        const name_data  = await res.json()
+        setNameList(name_data)
+    }
+    catch (er){
+        console.log(er)
+    }
+    }, [])
+    console.log(nameList)
     return(
         <div>
         <div className="banner">

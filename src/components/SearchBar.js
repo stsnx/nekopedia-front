@@ -8,7 +8,9 @@ function SearchBar({placeholder,data,thispath}){
         const searchWord = e.target.value 
         const newFilter = data.filter((item)=>{
             return Object.keys(item).some(key=>{
-                return item[key].toString().toLowerCase().includes(searchWord.toLowerCase())
+                if (item[key]!=null){
+                    return item[key].toString().toLowerCase().includes(searchWord.toLowerCase())
+                }
             })
         });
         if (searchWord===""){
