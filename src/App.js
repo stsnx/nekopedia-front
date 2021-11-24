@@ -1,8 +1,7 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/Navbar';
 import './App.css';
-import nameList from "./page/name.json";
 import foodTemp from "./page/foodtemp.json";
 import Home from './page/home';
 import ContactUs from './page/contact';
@@ -19,6 +18,17 @@ import {
 } from "react-router-dom";
 
 function App (){
+  const [nameList,setNameList] = useState([])
+    useEffect(async() => {
+    try{
+        const res = await fetch('https://djangotestapi1234.herokuapp.com/apiblog/blog-list/')
+        const name_data  = await res.json()
+        setNameList(name_data)
+    }
+    catch (er){
+        console.log(er)
+    }
+    }, [])
   return (
     <div className='app'>
       <Router>
