@@ -52,6 +52,11 @@ function App (){
                           return (
                         <Route path={thispath} element={<Temporary data={lis} title={`this.path`}/>}/> 
                           );})}
+                        {foodTemp.map((lis,index)=>{
+                          let thispath="/advice/utility/"+String(lis.title).replace(" ","%20");
+                          return (
+                        <Route path={thispath} element={<Temporary data={lis} title={`this.path`}/>}/> 
+                          );})}
                         
                     </Routes>
       </Router>

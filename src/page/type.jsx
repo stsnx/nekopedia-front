@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from "react";
 import './pagecontent.css';
 import SearchBar from "../components/SearchBar";
+import {Button} from "react-bootstrap";
 
 
 function Type(){
@@ -15,6 +16,7 @@ function Type(){
         console.log(er)
     }
     }, [])
+
     console.log(nameList)
     return(
         <div>
@@ -24,7 +26,6 @@ function Type(){
         <div >
         <SearchBar className="searchbox" placeholder="eath" data={nameList} thispath="type"/>
         </div>
-        
         </div>
         
     )
