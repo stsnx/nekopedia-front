@@ -1,38 +1,42 @@
 [
     {
-        "id" : 1,
+        "id" : "1",
         "img" : "../yongy.png",
-        "title" : "Mark",
-        "des" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor lobortis pulvinar. Phasellus dignissim diam sit amet tincidunt feugiat. Nullam nunc nisl, rutrum sit amet consequat nec, cursus a risus. Sed viverra magna vitae felis sodales vehicula. Praesent facilisis efficitur lacinia. Nam hendrerit mi sit amet sem mollis, vitae suscipit mauris fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed non eros aliquam, placerat tellus a, commodo dolor."
+        "title" : "Yongyut",
+        "prize" : "30-50",
+        "des" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor lobortis pulvinar. Phasellus dignissim diam sit amet tincidunt feugiat. Nullam nunc nisl, rutrum sit amet consequat nec, cursus a risus. Sed viverra magna vitae felis sodales vehicula. Praesent facilisis efficitur lacinia. Nam hendrerit mi sit amet sem mollis, vitae suscipit mauris fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed non eros aliquam, placerat tellus a, commodo dolor.",
+        "recstore":"https://www.youtube.com/watch?v=pLQGfSQUuCM"
     },
     {
-        "id" : 2,
+        "id" : "2",
         "img" : "../unknownkjkj.png",
         "title" : "Kawjaw",
-        "des" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor lobortis pulvinar. Phasellus dignissim diam sit amet tincidunt feugiat. Nullam nunc nisl, rutrum sit amet consequat nec, cursus a risus. Sed viverra magna vitae felis sodales vehicula. Praesent facilisis efficitur lacinia. Nam hendrerit mi sit amet sem mollis, vitae suscipit mauris fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed non eros aliquam, placerat tellus a, commodo dolor."
+        "prize" : "31-41",
+        "des" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor lobortis pulvinar. Phasellus dignissim diam sit amet tincidunt feugiat. Nullam nunc nisl, rutrum sit amet consequat nec, cursus a risus. Sed viverra magna vitae felis sodales vehicula. Praesent facilisis efficitur lacinia. Nam hendrerit mi sit amet sem mollis, vitae suscipit mauris fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed non eros aliquam, placerat tellus a, commodo dolor.",
+        "recstore":"https://www.youtube.com/watch?v=f9IdQr1ALnA"
     },
     {
-        "id" : 3,
+        "id" : "3",
         "img" : "http://cdn30.us1.fansshare.com/image/highschooldxd/high-school-dxd-akeno-himejima-high-school-dxd-514466431.jpg",
-        "title" : "Jill",
-        "des" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor lobortis pulvinar. Phasellus dignissim diam sit amet tincidunt feugiat. Nullam nunc nisl, rutrum sit amet consequat nec, cursus a risus. Sed viverra magna vitae felis sodales vehicula. Praesent facilisis efficitur lacinia. Nam hendrerit mi sit amet sem mollis, vitae suscipit mauris fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed non eros aliquam, placerat tellus a, commodo dolor."
+        "title" : "Jew",
+        "prize" : "80-100",
+        "des" :  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor lobortis pulvinar. Phasellus dignissim diam sit amet tincidunt feugiat. Nullam nunc nisl, rutrum sit amet consequat nec, cursus a risus. Sed viverra magna vitae felis sodales vehicula. Praesent facilisis efficitur lacinia. Nam hendrerit mi sit amet sem mollis, vitae suscipit mauris fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed non eros aliquam, placerat tellus a, commodo dolor.",
+        "recstore":"https://www.youtube.com/watch?v=h2U7t6Mzh90"
     },
     {
-        "id" : 4,
-        "img" : "https://raw.githubusercontent.com/KirttiphoomEarth/Nekopedia_database/24c308bd41dde615ecd9d2976a5c7416a07c8cce/Photo/cover-cats.jpg",
+        "id" : "4",
+        "img" :  "https://raw.githubusercontent.com/KirttiphoomEarth/Nekopedia_database/24c308bd41dde615ecd9d2976a5c7416a07c8cce/Photo/cover-cats.jpg",
         "title" : "Eath",
-        "des" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor lobortis pulvinar. Phasellus dignissim diam sit amet tincidunt feugiat. Nullam nunc nisl, rutrum sit amet consequat nec, cursus a risus. Sed viverra magna vitae felis sodales vehicula. Praesent facilisis efficitur lacinia. Nam hendrerit mi sit amet sem mollis, vitae suscipit mauris fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed non eros aliquam, placerat tellus a, commodo dolor."
+        "prize" : "105-200",
+        "des" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor lobortis pulvinar. Phasellus dignissim diam sit amet tincidunt feugiat. Nullam nunc nisl, rutrum sit amet consequat nec, cursus a risus. Sed viverra magna vitae felis sodales vehicula. Praesent facilisis efficitur lacinia. Nam hendrerit mi sit amet sem mollis, vitae suscipit mauris fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed non eros aliquam, placerat tellus a, commodo dolor.",
+        "recstore":"https://www.youtube.com/watch?v=KYWVPU8W620"
     },
     {
-        "id" : 5,
+        "id" : "5",
         "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ9IJZbql9Vj_SXmoicxa_2aXFQM-PBCqgpQ&usqp=CAU",
+        "prize" : "200-300", 
         "title" : "Vladilena Mirize",
-        "des" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor lobortis pulvinar. Phasellus dignissim diam sit amet tincidunt feugiat. Nullam nunc nisl, rutrum sit amet consequat nec, cursus a risus. Sed viverra magna vitae felis sodales vehicula. Praesent facilisis efficitur lacinia. Nam hendrerit mi sit amet sem mollis, vitae suscipit mauris fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed non eros aliquam, placerat tellus a, commodo dolor kuyeath."
-    },
-    {
-        "id" : 6,
-        "img" : "../unknownka.png",
-        "title" : "Kanut",
-        "des" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor lobortis pulvinar. Phasellus dignissim diam sit amet tincidunt feugiat. Nullam nunc nisl, rutrum sit amet consequat nec, cursus a risus. Sed viverra magna vitae felis sodales vehicula. Praesent facilisis efficitur lacinia. Nam hendrerit mi sit amet sem mollis, vitae suscipit mauris fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed non eros aliquam, placerat tellus a, commodo dolor."
+        "des" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor lobortis pulvinar. Phasellus dignissim diam sit amet tincidunt feugiat. Nullam nunc nisl, rutrum sit amet consequat nec, cursus a risus. Sed viverra magna vitae felis sodales vehicula. Praesent facilisis efficitur lacinia. Nam hendrerit mi sit amet sem mollis, vitae suscipit mauris fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed non eros aliquam, placerat tellus a, commodo dolor kuyeath.",
+        "recstore":"https://www.youtube.com/watch?v=kyl95CtkAJc"
     }
 ]

@@ -6,15 +6,19 @@ import {Button} from "react-bootstrap";
 
 function Type(){
     const [nameList,setNameList] = useState([])
-    useEffect(async() => {
-    try{
-        const res = await fetch('https://djangotestapi1234.herokuapp.com/apiblog/blog-list/')
-        const name_data  = await res.json()
-        setNameList(name_data)
-    }
-    catch (er){
-        console.log(er)
-    }
+    useEffect(() => {
+        async function fetchData(){
+            try{
+                const res = await fetch('https://djangotestapi1234.herokuapp.com/apiblog/blog-list/')
+                const name_data  = await res.json()
+                setNameList(name_data)
+                
+            }
+            catch (er){
+                console.log(er)
+            }
+        }
+        fetchData();
     }, [])
 
     console.log(nameList)
