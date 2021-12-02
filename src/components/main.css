@@ -1,8 +1,12 @@
 .navbar {
-    background-color: #ffb380;
+    background-color: #A2A2A2;
 }
 #_navbar{
     background-color: #f783fc;
+}
+.navbar-brand img{
+    height: 100px;
+    width: 100px;
 }
 #logo{
     margin-left: 10px;

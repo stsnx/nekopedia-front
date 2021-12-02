@@ -6,7 +6,6 @@ import foodTemp from "./page/foodtemp.json";
 import Home from './page/home';
 import ContactUs from './page/contact';
 import Type from './page/type'
-import Clinics from './page/advice/clinics';
 import Food from './page/advice/food';
 import Tips from './page/advice/tips';
 import Utility from './page/advice/utility';
@@ -36,7 +35,6 @@ function App (){
                     <Routes>
                         <Route path="/advice/food" element={ <Food />}/>
                         <Route path="/advice/utility" element={ <Utility />}/>
-                        <Route path="/advice/clinics" element={ <Clinics />}/>
                         <Route path="/advice/tips" element={ <Tips />}/>
                         <Route path="/type" element={ <Type />}/>
                         <Route path="/contact" element={<ContactUs />}/>
