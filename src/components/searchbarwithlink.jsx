@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import {Row,Col} from "react-bootstrap";
 import ContentWithLink from './contentwithlink';
 import './searchbar.css';
@@ -19,6 +19,11 @@ function SearchBarWithLink({placeholder,data,thispath}){
         }
         
     };
+    useEffect(()=>{
+        if(filteredData==data || filteredData==""){
+            setFilteredData(data); 
+        }   
+    })
     return(
         <div className="search">
             <div className="searchInput">

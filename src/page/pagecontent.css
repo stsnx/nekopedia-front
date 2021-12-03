@@ -9,11 +9,11 @@
 
 
 .banner{
-    padding: 1% 40% 0% 40%;
-    
+    display: flex;
+    justify-content: center;
 }
 .banner_img{
-    align-items: center;
+    left: 50%;
 }
 .searchbox{
     position: absolute;

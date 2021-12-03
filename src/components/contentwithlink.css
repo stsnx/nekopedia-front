@@ -1,32 +1,48 @@
-.cardz__{
+.l_card{
     display:block;
     width:auto;
-    height:500px;
-
+    height:700px;
 }
-.cardText__{
-    height: 70px;
+.l_cardText{
+    height: 220px;
     white-space: normal; 
-    overflow: hidden;
+    overflow: scroll;
     text-overflow: ellipsis;
+    position: absolute;
+    left:    0;
+    bottom:  10%;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
-.cardImg__{
+.l_price{
+    position: absolute;
+    left:    0;
+    bottom:  45%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+   
+}
+.l_cardTitle{
+    position: absolute;
+    left:    0;
+    bottom:  55%;
+    margin-left: 20px;
+}
+.l_cardImg{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: auto;
     height: auto;
-    width: 300px;
-    margin: 10% 15% 5% 15%;
+    width: 200px;
+    margin-top: 5%;
 }
-.linktomore__{
+.l_linktomore{
     position: absolute;
     left:    0;
     bottom:   0;
     margin-left: 20px;
     margin-bottom: 20px;
-}
-.cardTitle__{
-    position: absolute;
-    left:    0;
-    bottom:  25%;
-    margin-left: 20px;
 }
 .btn-light {
     color: #fff;

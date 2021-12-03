@@ -1,14 +1,29 @@
+import React,{useState,useEffect} from "react";
 import SearchBarOneTap from '../../components/SearchBarOneTap';
-import foodTemp from '../foodtemp.json';
 import '../pagecontent.css'
 function Tips(){
+    const [tipsTemp ,settipsTemp] = useState([])
+    useEffect(() => {
+        async function fetchData(){
+            try{
+                const res = await fetch('https://djangotestapi1234.herokuapp.com/apiblog/blog-list/')
+                const name_data  = await res.json()
+                settipsTemp (name_data)
+                
+            }
+            catch (er){
+                console.log(er)
+            }
+        }
+        fetchData();
+    }, [])
     return(
         <div>
         <div className="banner">
         <img  className="banner_img"src='../unknownka.png' alt='kanut' />
         </div>
         <div >
-        <SearchBarOneTap className="searchbox" placeholder="tips for eath" data={foodTemp} thispath="type"/>
+        <SearchBarOneTap className="searchbox" placeholder="tips for eath" data={tipsTemp} thispath="type"/>
         </div>
         
         </div>
