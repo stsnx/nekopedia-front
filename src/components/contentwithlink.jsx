@@ -1,20 +1,19 @@
 import React from 'react';
 import {Card,Button} from 'react-bootstrap';
 import {Link} from "react-router-dom";
-import './displaycard.css';
+import './contentwithlink.css';
 function ContentWithLink({prop,index}){
     return(
         <div>
-                <Card className="card" key = {index} >
-                <Card.Img className="cardImg" variant="top" src="holder.js/100px160" src={prop.img}  />
+                <Card className="l_card" key = {index} >
+                <Card.Img className="l_cardImg" variant="top" src="holder.js/100px160" src={prop.img}  />
                 <Card.Body>
-                  <Card.Title className="cardTitle">{prop.title}</Card.Title>
-                  <Button variant="success">{prop.prize}</Button>
-                    <Card.Text className="cardText">
+                  <Card.Title className="l_cardTitle">{prop.title}</Card.Title>
+                  <Button className="l_price" variant="success">{prop.prize}</Button>
+                    <Card.Text className="l_cardText">
                         {prop.des}
                     </Card.Text> 
-                    <p>reccomment store</p>
-                    <Button variant="light"><a href={prop.recstore} target="_blank">Clickbait here!</a></Button>
+                    <Button variant="light"className="l_linktomore"><a href={prop.recstore} target="_blank">For recomment store Clickbait here!</a></Button>
                         </Card.Body>
                 </Card>
                 

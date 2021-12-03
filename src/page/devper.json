@@ -1,0 +1,57 @@
+[
+    {
+        "id" : 1,
+        "img" : "https://github.com/KirttiphoomEarth/Nekopedia_database/blob/main/1.jpg?raw=true",
+        "name" : "Kirttiphoom Teainngarm",
+        "nickname":"Eath",
+        "stuid" : "63010042",
+        "role":"Fuck Database",
+        "github":"https://github.com/KirttiphoomEarth",
+        "fb":"https://www.facebook.com/profile.php?id=100008592405214",
+        "ig":"https://www.instagram.com/kirttiphoom_earth/"
+    },
+    {
+        "id" : 2,
+        "img" : "",
+        "name" : "Kantida Parsomsup",
+        "nickname":"Kan",
+        "stuid" : "63010069",
+        "role":"Backend Developer",
+        "github":"https://github.com/KantidaKAn",
+        "fb":"https://www.facebook.com/kankantida170344",
+        "ig":"https://www.instagram.com/uty_kkan/"
+    },
+    {
+        "id" : 3,
+        "img" : "https://github.com/stsnx/testBranch/blob/main/miku.png?raw=true",
+        "name" : "Thanakrit Thonglor",
+        "nickname":"Boom",
+        "stuid" : "63010394",
+        "role":"Frontend Developer",
+        "github":"https://github.com/stsnx",
+        "fb":"https://www.facebook.com/misakx9423/",
+        "ig":"https://www.instagram.com/misakxy/"
+    },
+    {
+        "id" : 4,
+        "img" : "https://scontent.fbkk22-8.fna.fbcdn.net/v/t31.18172-8/15724881_1820149658198266_4807733858977384375_o.jpg?_nc_cat=110&ccb=1-5&_nc_sid=174925&_nc_eui2=AeGPbdsZIZ7ftWPPtYrO35jyKTiW6VRDaQopOJbpVENpCgOxC5C2CHI_A1MRLPnJqGJZYm9qZG7WpnpVx6hOhp_J&_nc_ohc=6ZniT1995ToAX94aj8G&_nc_ht=scontent.fbkk22-8.fna&oh=50914ff3fee7fa79c8b419e5c38c6a0c&oe=61D01A83",
+        "name" : "Phacharaphol Chokkhun",
+        "nickname":"Sans",
+        "stuid" : "63010631",
+        "role":"Frontend Developer",
+        "github":"https://github.com/ZionSS",
+        "fb":"https://www.facebook.com/Karyuto.SG",
+        "ig":"https://www.instagram.com/_pchrckk/"
+    },
+    {
+        "id" : 5,
+        "img" : "https://res.cloudinary.com/dthlppat4/image/upload/v1638467097/111567_kice70.jpg",
+        "name" : "Siwakorn Parsomsup",
+        "nickname":"Jew",
+        "stuid" : "63010918",
+        "role":"Backend Developer",
+        "github":"https://github.com/SiwakornJew",
+        "fb":"https://www.facebook.com/JeW.siwakorn",
+        "ig":"https://www.instagram.com/jill,nd/"
+    }
+]

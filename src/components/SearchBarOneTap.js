@@ -1,14 +1,17 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import {Row,Col} from "react-bootstrap";
 import Content from './Content';
 import './searchbar.css';
 function SearchBarOneTap({placeholder,data,thispath}){
     const [filteredData,setFilteredData] = useState(data);
+    
     const handleFilter =(e) => {
         const searchWord = e.target.value 
         const newFilter = data.filter((item)=>{
             return Object.keys(item).some(key=>{
-                return item[key].toString().toLowerCase().includes(searchWord.toLowerCase())
+                if (item[key]!=null){
+                    return item[key].toString().toLowerCase().includes(searchWord.toLowerCase())
+                }
             })
         });
         if (searchWord===""){
@@ -19,6 +22,11 @@ function SearchBarOneTap({placeholder,data,thispath}){
         }
         
     };
+    useEffect(()=>{
+        if(filteredData==data || filteredData==""){
+            setFilteredData(data); 
+        }   
+    })
     return(
         <div className="search">
             <div className="searchInput">

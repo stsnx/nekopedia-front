@@ -1,0 +1,41 @@
+.icon{
+    height: 50px;
+    width : 50px;
+}
+.linkicon{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    position: absolute;
+    left:    25%;
+    bottom:  5%;
+    
+    margin-bottom: 20px;
+ 
+}
+.blockicon{
+    
+    margin-left: 3%;
+}
+.c_cardImg{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    height: auto;
+    width: 400px;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+.c_cardText{
+    position: absolute;
+    left:    25%;
+    bottom: 18%;
+    
+    margin-bottom: 20px;
+}
+.card{
+    display:block;
+    width:auto;
+    height:850px;
+}

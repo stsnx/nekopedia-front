@@ -20,7 +20,7 @@ function App (){
   const [nameList,setNameList] = useState([])
     useEffect(async() => {
     try{
-        const res = await fetch('https://djangotestapi1234.herokuapp.com/apiblog/blog-list/')
+        const res = await fetch('https://djangotestapi1234.herokuapp.com/apicats/Cats-list/')
         const name_data  = await res.json()
         setNameList(name_data)
     }

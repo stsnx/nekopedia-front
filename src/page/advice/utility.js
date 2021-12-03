@@ -6,7 +6,7 @@ function Utility(){
     return (
         <div>
         <div className="banner">
-        <img  className="banner_img"src='../unknownka.png' alt='kanut' />
+        <img  className="banner_img"src='https://github.com/ZionSS/NekoPedia-FrontEnd/blob/main/assets/banner_utility.png?raw=true' alt='kanut' />
         </div>
         <div >
         <SearchBarWithLink className="searchbox" placeholder="food for eath" data={foodTemp} thispath="type"/>

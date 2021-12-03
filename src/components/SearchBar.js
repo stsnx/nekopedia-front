@@ -4,6 +4,7 @@ import DisplayCard from './DisplayCard';
 import './searchbar.css';
 function SearchBar({placeholder,data,thispath}){
     const [filteredData,setFilteredData] = useState(data);
+    
     const handleFilter =(e) => {
         const searchWord = e.target.value 
         const newFilter = data.filter((item)=>{
@@ -21,12 +22,17 @@ function SearchBar({placeholder,data,thispath}){
         }
         
     };
+    useEffect(()=>{
+        if(filteredData==data || filteredData==""){
+            setFilteredData(data); 
+        }   
+    })
     return(
         <div className="search">
             <div className="searchInput">
                <input type="text" placeholder={placeholder} onChange={handleFilter}/>
             </div>
-            { filteredData.length !=0 &&(
+            { 
             <div>
                 <Row xs={1} sm={2} md={3} xl={4} className="g-4">
                 {filteredData.map((lis,index)=>{
@@ -40,7 +46,7 @@ function SearchBar({placeholder,data,thispath}){
                 })}
                 </Row>
             </div>
-            )}
+            }
         </div>
     )
 }

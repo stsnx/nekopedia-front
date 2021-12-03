@@ -9,7 +9,7 @@ function Type(){
     useEffect(() => {
         async function fetchData(){
             try{
-                const res = await fetch('https://djangotestapi1234.herokuapp.com/apiblog/blog-list/')
+                const res = await fetch('https://djangotestapi1234.herokuapp.com/apicats/Cats-list/')
                 const name_data  = await res.json()
                 setNameList(name_data)
                 
@@ -25,7 +25,7 @@ function Type(){
     return(
         <div>
         <div className="banner">
-        <img  className="banner_img"src='unknownka.png' alt='kanut' />
+        <img  className="banner_img"src='https://github.com/ZionSS/NekoPedia-FrontEnd/blob/main/assets/banner_type2.png?raw=true' alt='kanut' />
         </div>
         <div >
         <SearchBar className="searchbox" placeholder="eath" data={nameList} thispath="type"/>
