@@ -1,4 +1,4 @@
-หากยังไม่เคย clone ลงไปเลย วิธ๊ clone มีดังนี้
+หากยังไม่เคย clone ลงไปเลย วิธี clone มีดังนี้
 1. สร้าง Folder ลงเครื่องตัวเองโดยใชั
   ``` git clone https://github.com/stsnx/nekopedia-front.git```
 2. โปรเจกต์นี้ใช้ bootstrap กับ react-router-dom ถ้ารันแล้ว error อาจจะเพราะยังไม่ได้ติดตั้ง วิธีติดตั้งคือ 
