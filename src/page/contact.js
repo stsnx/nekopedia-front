@@ -6,11 +6,11 @@ function ContactUs(){
     return(
         <div>
         
-                <Row xs={1} sm={2} md={3} xl={4} className="g-4">
+                <Row xs={1} sm={2} md={3} xl={3} className="table__c">
                 {NameDev.map((prop,index)=>{
                     return (
                         <Col>
-                        <Card className="card" key = {index} >
+                        <Card className="c_card" key = {index} >
                             <Card.Img className="c_cardImg" variant="top" src="holder.js/100px160" src={prop.img}  />
                             <Card.Body>
                             <Card.Title className="cardTitle">{prop.title}</Card.Title>

@@ -23,7 +23,7 @@ function Food(){
         <img  className="banner_img"src='https://github.com/ZionSS/NekoPedia-FrontEnd/blob/main/assets/banner_food.png?raw=true' alt='kanut' />
         </div>
         <div >
-        <SearchBarWithLink className="searchbox" placeholder="food for eath" data={foodTemp} thispath="type"/>
+        <SearchBarWithLink className="searchbox" placeholder="Type for search." data={foodTemp} thispath="type"/>
         </div>
         
         </div>

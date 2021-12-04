@@ -1,48 +1,62 @@
 .l_card{
     display:block;
     width:auto;
-    height:700px;
+    height:36em;
+    text-align: center;
+    padding-top: 10%;
+    border-radius: 1.5em;
+    transition: all 0.3s;
+}
+.l_card:hover{
+    border: 7px solid black;
+    box-shadow: 10px 20px #888888;
 }
 .l_cardText{
-    height: 220px;
+    height: 12em;
+    width: 19em;
     white-space: normal; 
     overflow: scroll;
-    text-overflow: ellipsis;
+    text-overflow: scroll;
+    text-align: left;
     position: absolute;
     left:    0;
     bottom:  10%;
-    margin-left: 20px;
+    margin-left: 1.5em;
     margin-bottom: 20px;
 }
 .l_price{
     position: absolute;
     left:    0;
-    bottom:  45%;
-    margin-left: 20px;
+    bottom:  44%;
+    margin-left: 1.5em;
     margin-bottom: 10px;
    
 }
 .l_cardTitle{
     position: absolute;
+    width: 15em;
     left:    0;
-    bottom:  55%;
-    margin-left: 20px;
+    bottom:  51%;
+    margin-left: 1.2em;
+    text-align: left;
 }
 .l_cardImg{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    margin: auto;
-    height: auto;
-    width: 200px;
-    margin-top: 5%;
+    height: 35%;
+    width: 60%;
+    
 }
 .l_linktomore{
     position: absolute;
     left:    0;
     bottom:   0;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+    height: 3.5em;
+    font-size: 40px;
+}
+.l_linktomore a{
+    text-decoration:none;
+    color: white;
 }
 .btn-light {
     color: #fff;

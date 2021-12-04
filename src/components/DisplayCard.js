@@ -7,6 +7,7 @@ function DisplayCard({prop,index}){
     return(
       <div>
               <Card className="cardz__" key = {index} >
+              
               <Card.Img className="cardImg__" variant="top" src="holder.js/100px160" src={prop.img}  />
               <Card.Body>
                 <Card.Title className="cardTitle__">{prop.title}</Card.Title>

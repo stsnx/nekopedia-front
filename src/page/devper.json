@@ -12,7 +12,7 @@
     },
     {
         "id" : 2,
-        "img" : "",
+        "img" : "https://scontent.fbkk2-5.fna.fbcdn.net/v/t1.6435-9/51902591_312517132947893_224377110246981632_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeG8NqlWzZwZmBj1YT0mktPqaWopWNlkxkxpailY2WTGTEA3ZFjV1tNSJ3GrHSkPiDpIgceKM1yxlxbWcTdL8iMK&_nc_ohc=lFAkCp_pDoYAX_sK9ib&_nc_ht=scontent.fbkk2-5.fna&oh=92bd8f7a3c0c24598355f845057ce6ee&oe=61D0EA56",
         "name" : "Kantida Parsomsup",
         "nickname":"Kan",
         "stuid" : "63010069",
@@ -23,7 +23,7 @@
     },
     {
         "id" : 3,
-        "img" : "https://github.com/stsnx/testBranch/blob/main/miku.png?raw=true",
+        "img" : "https://github.com/stsnx/testBranch/blob/main/19250941_693388880852643_812057086_n.jpg?raw=true",
         "name" : "Thanakrit Thonglor",
         "nickname":"Boom",
         "stuid" : "63010394",
@@ -46,12 +46,12 @@
     {
         "id" : 5,
         "img" : "https://res.cloudinary.com/dthlppat4/image/upload/v1638467097/111567_kice70.jpg",
-        "name" : "Siwakorn Parsomsup",
+        "name" : "Siwakorn Noisundod",
         "nickname":"Jew",
         "stuid" : "63010918",
         "role":"Backend Developer",
         "github":"https://github.com/SiwakornJew",
         "fb":"https://www.facebook.com/JeW.siwakorn",
-        "ig":"https://www.instagram.com/jill,nd/"
+        "ig":"https://www.instagram.com/jill.ndd/"
     }
 ]
