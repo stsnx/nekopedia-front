@@ -1,5 +1,19 @@
 .searchInput{
     padding: 5% 0% 0% 75% ;
+   
+}
+.searchInput__bar{
+    height: 2em;
+    width:15em;
+}
+.search__icon{
+    background-color: #FF6F0E;
+    height: 2em;
+    transition: background-color 0.5s;
+    border : 1px solid black;
+}
+.search__icon:hover{
+    background-color: #FFFFFF;
 }
 .g-4{
     margin: 2em;

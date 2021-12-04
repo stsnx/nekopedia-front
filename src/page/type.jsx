@@ -28,7 +28,7 @@ function Type(){
         <img  className="banner_img"src='https://github.com/ZionSS/NekoPedia-FrontEnd/blob/main/assets/banner_type2.png?raw=true' alt='kanut' />
         </div>
         <div >
-        <SearchBar className="searchbox" placeholder="eath" data={nameList} thispath="type"/>
+        <SearchBar className="searchbox" placeholder="Type for search." data={nameList} thispath="type"/>
         </div>
         </div>
         

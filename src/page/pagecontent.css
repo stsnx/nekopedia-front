@@ -14,10 +14,12 @@
 }
 .banner_img{
     left: 50%;
+    width:100%;
 }
 .searchbox{
     position: absolute;
-    margin-left: 50%;
+    margin-left: 60%;
+    height: 10em;
 }
 /*.card {
     height: 300px;

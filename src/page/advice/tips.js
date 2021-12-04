@@ -20,10 +20,10 @@ function Tips(){
     return(
         <div>
         <div className="banner">
-        <img  className="banner_img"src='../unknownka.png' alt='kanut' />
+        <img  className="banner_img"src='https://github.com/ZionSS/NekoPedia-FrontEnd/blob/main/assets/banner_t&t.png?raw=true' alt='kanut' />
         </div>
         <div >
-        <SearchBarOneTap className="searchbox" placeholder="tips for eath" data={tipsTemp} thispath="type"/>
+        <SearchBarOneTap className="searchbox" placeholder="Type for search." data={tipsTemp} thispath="type"/>
         </div>
         
         </div>

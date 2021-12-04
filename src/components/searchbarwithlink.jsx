@@ -4,15 +4,18 @@ import ContentWithLink from './contentwithlink';
 import './searchbar.css';
 function SearchBarWithLink({placeholder,data,thispath}){
     const [filteredData,setFilteredData] = useState(data);
+    const [searchWord,setsearchWord] = useState("");
     const handleFilter =(e) => {
-        const searchWord = e.target.value 
+        setsearchWord ( e.target.value) ;
         const newFilter = data.filter((item)=>{
             return Object.keys(item).some(key=>{
-                return item[key].toString().toLowerCase().includes(searchWord.toLowerCase())
+                if (item[key]!=null){
+                    return item[key].toString().toLowerCase().includes(searchWord.toLowerCase())
+                }
             })
         });
-        if (searchWord===""){
-            setFilteredData(data)
+        if(searchWord===""){
+          setFilteredData(data)
         }
         else{
            setFilteredData(newFilter); 
@@ -20,14 +23,25 @@ function SearchBarWithLink({placeholder,data,thispath}){
         
     };
     useEffect(()=>{
-        if(filteredData==data || filteredData==""){
+        if(filteredData===data){
             setFilteredData(data); 
-        }   
+        } 
+        else if(filteredData==""){
+            if (searchWord==""){
+            setFilteredData(data);
+            }
+            /*else if (searchWord!=""){
+                let em = "[]"
+                setFilteredData(em);
+            }*/
+        } 
+        
     })
     return(
         <div className="search">
             <div className="searchInput">
-               <input type="text" placeholder={placeholder} onChange={handleFilter}/>
+               <input className="searchInput__bar" type="text" placeholder={placeholder} onChange={handleFilter}/>
+               <img className="search__icon" src="https://cdn2.iconfinder.com/data/icons/education-3-25/48/129-512.png"/>
             </div>
             { filteredData.length !=0 &&(
             <div>
