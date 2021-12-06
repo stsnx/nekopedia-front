@@ -6,7 +6,7 @@
   ```npm install bootstrap```<br />
   ```npm install react-router-dom ```<br />
  ลองไปเช็คที่ package.json ว่าติดตั้งสำเร็จหรือไม่ <br />
-  ![image](https://user-images.githubusercontent.com/69145525/141767920-c90882eb-7b99-47aa-a48d-0ab16fa03413.png)
+  ![image](https://user-images.githubusercontent.com/69145525/141767920-c90882eb-7b99-47aa-a48d-0ab16fa03413.png)<br />
 2.1. ช้าก่อน!!! หากเคย clone ไปแล้ว อย่าลืม pull ก่อนจะแบกอะไรด้วย
 3. เมื่อเรียบร้อยแล้วฝากแบกด้วย
 4. เมื่อแบกเสร็จแล้วอยากจะ push ขึ้นมาที่นี่ ให้ทำดังนี้ 
