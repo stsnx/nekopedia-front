@@ -1,7 +1,7 @@
 .cardz__{
     display:block;
     width:auto;
-    height:24em;
+    height:20em;
     text-align: center;
     padding-top: 10%;
     border-radius: 1.5em;
@@ -9,7 +9,7 @@
 }
 .cardz__:hover{
     border: 7px solid black;
-    box-shadow: 10px 20px #888888;
+    box-shadow: 20px 30px #888888;
 }
 .cardText__{
     height: 10px;
@@ -26,8 +26,8 @@
     position: absolute;
     left:    0;
     bottom:   0;
-    margin-left: 1.5em;
-    margin-bottom: 1.5em;
+    margin-left: 2em;
+    margin-bottom: 4em;
     height: 3em;
     font-size: 40px;
 }
@@ -35,7 +35,7 @@
     position: absolute;
     left:    0;
     bottom:  25%;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-left: 1em;
 }
 .btn-light {

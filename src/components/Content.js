@@ -13,7 +13,7 @@ function Content({prop,index}){
               <Col>
                 <Card.Title className="cardTitle_content">{prop.title}</Card.Title>
                   <Card.Text className="cardText_content">
-                      {prop.des}
+                      &emsp;&emsp;{prop.des}
                       </Card.Text>
                 </Col>
                 </Row>

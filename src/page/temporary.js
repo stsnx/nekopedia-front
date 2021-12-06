@@ -24,7 +24,7 @@ function Temporary({data,title}){
         <div className="box__right">
         <div className="textzone__r">
         <p className="text__normal__r">ลักษณะโดยทั่วไปของน้อง </p>
-        <p className="text__des__r">{data.temperament}</p>
+        <p className="text__des__r">&emsp;&emsp;{data.temperament}</p>
         </div>
         </div>
         </div>

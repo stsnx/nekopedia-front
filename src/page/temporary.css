@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 * {
-    font-size: 60px;
+    font-size: 80px;
     font-family: 'Itim',cursive
 }
 .column {
@@ -135,7 +135,8 @@ figure:hover+span {
     position: absolute;
     top:15%;
     left:3%;
-    border-radius: 15px;
+    border-radius: 20px;
+    border: #000000 solid 8px;
     color: black;
     background: linear-gradient(to left, white 50%, #FF9B57 50%) right;
     background-size: 200%;
@@ -147,7 +148,7 @@ figure:hover+span {
     border-left: 20px solid #FF6F0E;
 }
 body{
-    background-image: url("https://github.com/stsnx/testBranch/blob/main/9bfb743648adf4ff0751b52b13f415cd.jpg?raw=true");
+    background-image: url("https://github.com/stsnx/testBranch/blob/main/borderiv.png?raw=true");
 }
 .box__left{
     background-image:url("https://github.com/stsnx/testBranch/blob/main/Pictureboarder.png?raw=true");
@@ -165,18 +166,18 @@ body{
     background-image:url("https://github.com/stsnx/testBranch/blob/main/borderiii.png?raw=true");
     background-repeat: no-repeat;
     background-position: 40% 18%;
-    background-size: 100% 100%;
+    background-size: 90% 90%;
     position: absolute;
-    top:62%;
+    top:72%;
     left:55%;
-    width:22em;
+    width:28em;
     height: 30em;
 }
 .textzone__r{
     position: absolute;
-    top:17em;
-    left:2em;
-    width:18em;
+    top:15em;
+    left:3em;
+    width:21em;
 }
 .textzone{
     position: absolute;
