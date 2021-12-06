@@ -5,10 +5,11 @@
 .searchInput__bar{
     height: 2em;
     width:15em;
+    margin-left: 41%;
 }
 .search__icon{
     background-color: #FF6F0E;
-    height: 2em;
+    height: 1.95em;
     transition: background-color 0.5s;
     border : 1px solid black;
 }
@@ -20,4 +21,64 @@
 }
 .card__in{
     margin: 10em;
+}
+.buttongroup{
+    padding-top: 5em;
+    padding-left: 2.5em;
+}
+.but_fil{
+    margin-left: 0.5em;
+}
+.hnn{
+    position: absolute;
+    top :49%;
+    left: 4%;
+    padding: .5em 1em .5em 1em;
+    background-color: #FF9B57;
+    color: #FFFFFF;
+    border-radius: .5em;
+    border: #FF6F0E dashed .2em;
+}
+#a{
+    background-color: #F5B041;
+    border: none;
+}
+#a:hover{
+    background-color: #F8C471;
+   
+}
+#b{
+    background-color: #D68910;
+    border: none;
+}
+#b:hover{
+    background-color: #F5B041;
+}
+#c{
+    background-color: #B9770E;
+    border: none;
+}
+#c:hover{
+    background-color: #D68910;
+}
+#d{
+    background-color: #9C640C;
+    border: none;
+}
+#d:hover{
+    background-color: #B9770E;
+}
+#e{
+    background-color: #7E5109 ;
+    border: none;
+}
+#e:hover{
+    background-color: #9C640C;
+}
+#f{
+    background-color: #000000;
+    border: none;
+}
+#f:hover{
+    background-color: #7E5109 ;
 }

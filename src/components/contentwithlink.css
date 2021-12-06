@@ -9,10 +9,10 @@
 }
 .l_card:hover{
     border: 7px solid black;
-    box-shadow: 10px 20px #888888;
+    box-shadow: 20px 30px #888888;
 }
 .l_cardText{
-    height: 12em;
+    height: 11em;
     width: 19em;
     white-space: normal; 
     overflow: scroll;
@@ -20,38 +20,40 @@
     text-align: left;
     position: absolute;
     left:    0;
-    bottom:  10%;
+    bottom:  13%;
     margin-left: 1.5em;
     margin-bottom: 20px;
+    font-size: 1em;
 }
 .l_price{
     position: absolute;
     left:    0;
-    bottom:  44%;
+    bottom:  45%;
     margin-left: 1.5em;
     margin-bottom: 10px;
-   
+    font-size: 1em;
 }
 .l_cardTitle{
     position: absolute;
     width: 15em;
     left:    0;
-    bottom:  51%;
+    bottom:  52%;
     margin-left: 1.2em;
     text-align: left;
+    font-size: 1.3em;
 }
 .l_cardImg{
-    height: 35%;
-    width: 60%;
+    height: 30%;
+    width: 55%;
     
 }
 .l_linktomore{
     position: absolute;
     left:    0;
     bottom:   0;
-    margin-left: 1.5em;
-    margin-bottom: 1.5em;
-    height: 3.5em;
+    margin-left: 2.5em;
+    margin-bottom: 3.2em;
+    height: 4.2em;
     font-size: 40px;
 }
 .l_linktomore a{
