@@ -2,6 +2,11 @@
     padding: 5% 0% 0% 75% ;
    
 }
+.searchInput__bar_o{
+    height: 2em;
+    width:15em;
+    margin-left: 0%;
+}
 .searchInput__bar{
     height: 2em;
     width:15em;
@@ -23,16 +28,15 @@
     margin: 10em;
 }
 .buttongroup{
-    padding-top: 5em;
+    padding-top: 3em;
     padding-left: 2.5em;
 }
 .but_fil{
     margin-left: 0.5em;
 }
 .hnn{
-    position: absolute;
-    top :49%;
-    left: 4%;
+    position: inherit;
+    width: 15em;
     padding: .5em 1em .5em 1em;
     background-color: #FF9B57;
     color: #FFFFFF;

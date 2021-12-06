@@ -25,15 +25,11 @@ function SearchBar({placeholder,data,thispath}){
     };
     const selectFilter = (e) =>{
         const filt = e.target.value;
-        console.log(filt.toString());
         const nf=data.filter((item)=>{
-            console.log(item.title[0].toString());
-            console.log(item.title.toString());
             if (filt.toLowerCase().includes(item.title[0].toString().toLowerCase())){
                 return item;
             }
         });
-        console.log("res"+nf.toString());
         setFilteredData(nf);
         if (nf==[]){
             setFilteredData([]);
@@ -56,8 +52,9 @@ function SearchBar({placeholder,data,thispath}){
     })
     return(
         <div className="search">
-            <p className="hnn">หาน้อง ๆ ตามตัวอักษรได้ที่นี่เลย</p>
+            
             <div className="buttongroup">
+            <p className="hnn">หาน้อง ๆ ตามตัวอักษรได้ที่นี่เลย</p>
             <Button variant="light" className="but_fil" id="a" onClick={selectFilter} value="abcd">A-D</Button>
             <Button variant="light" className="but_fil" id="b" onClick={selectFilter} value="efgh">E-H</Button>
             <Button variant="light" className="but_fil" id="c" onClick={selectFilter} value="ijkl">I-L</Button>

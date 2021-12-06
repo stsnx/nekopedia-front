@@ -13,7 +13,7 @@ function NavBar() {
            
             <div>
                 <Nav className="navbar navbar-expand-sm navbar-light">
-                        <Navbar.Brand ><img src='https://github.com/ZionSS/NekoPedia-FrontEnd/blob/main/assets/NekoPedia%20Logo.png?raw=true' href="https://www.youtube.com/watch?v=pLQGfSQUuCM"id='logo' alt='eath'/>Nekopedia</Navbar.Brand>
+                        <Navbar.Brand href="https://www.youtube.com/watch?v=pLQGfSQUuCM" target="_blank"><img src='https://github.com/ZionSS/NekoPedia-FrontEnd/blob/main/assets/NekoPedia%20Logo.png?raw=true'id='logo' alt='eath'/>Nekopedia</Navbar.Brand>
                         <div className="collapse navbar-collapse" id="navbarText">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                           <li className='nav-item'>
