@@ -40,7 +40,7 @@ function SearchBarWithLink({placeholder,data,thispath}){
     return(
         <div className="search">
             <div className="searchInput">
-               <input className="searchInput__bar" type="text" placeholder={placeholder} onChange={handleFilter}/>
+               <input className="searchInput__bar_o" type="text" placeholder={placeholder} onChange={handleFilter}/>
                <img className="search__icon" src="https://cdn2.iconfinder.com/data/icons/education-3-25/48/129-512.png"/>
             </div>
             { filteredData.length !=0 &&(
