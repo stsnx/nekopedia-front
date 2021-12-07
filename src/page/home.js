@@ -1,11 +1,29 @@
-function Home(){
-    return(
-        <div>
-        <p>Home</p>
-        <img src='unknownj.png' alt='jill' />
-        <img src='unknownkjkj.png' alt='kj' />
-        <img src='https://scontent.fbkk22-2.fna.fbcdn.net/v/t1.6435-9/71969683_2695781113780047_2601297928379170816_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=ad2b24&_nc_eui2=AeHvNfHPKZxC01v05Nl5SfK7s7x5thbYELuzvHm2FtgQu-09OIZqiuMTSGNnNjEfMfNC6vFtfWVoM3XfXngj2GZv&_nc_ohc=J0HOUmS59EAAX8DpU71&_nc_ht=scontent.fbkk22-2.fna&oh=d3430cf85ea43c2bf4ade6befc0c822f&oe=61CEE023' alt='kj' />
-        </div>
-    )
+import './home.css';
+import React from 'react';
+import { Card, col } from 'react-bootstrap';
+
+function Home() {
+  return (
+    <div>
+      <img
+        className="banner_img"
+        src="https://github.com/ZionSS/NekoPedia-FrontEnd/blob/main/assets/Home_banner4.png?raw=true"
+        alt="kj"
+      />
+      <Card className="card_home">
+        <p className="cap_box"> C A T </p>
+        <h1 className="text_box">Neko Pedia</h1>
+        <h2 className="quote_box">"I Know I'm just a cat but...</h2>
+        <h2 className="quote_box">If you feel sad, I'll be your smile</h2>
+        <h2 className="quote_box">if you cry, I'll be your comfort.</h2>
+        <h2 className="quote_box">And if someone breaks your heart</h2>
+        <h2 className="quote_box">we can use mine to live.</h2>
+        <h2 className="quote_box">I'LL ALWAYS BE BY YOUR SIDE."</h2>
+        <d className="detail_box">
+          Welcome to a website that collects general information about cats.
+        </d>
+      </Card>
+    </div>
+  );
 }
 export default Home;
