@@ -1,0 +1,35 @@
+.text_box {
+  margin-top: -125px;
+  margin-bottom: 100px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.cap_box {
+  margin-top: 200px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+.quote_box {
+  font-size: 100px;
+  margin-bottom: -25px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.detail_box {
+  margin-top: 80px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.bg {
+  background-color: blanchedalmond;
+  height: 500px;
+}
+.card_home {
+  background-color: rgb(245, 245, 245);
+}
