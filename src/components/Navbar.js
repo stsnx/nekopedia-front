@@ -56,8 +56,8 @@ function NavBar() {
             </NavDropdown>
             <li className="nav-box"></li>
 
-            <li className="nav-item">
-              <Nav.Link as={NavLink} to="/contact" className="nav-item__t">
+            <li className="nav-item" id="contactus">
+              <Nav.Link as={NavLink} to="/contact" className="nav-item__t" >
                 Contact Us
               </Nav.Link>
             </li>
