@@ -6,7 +6,7 @@ function Tips(){
     useEffect(() => {
         async function fetchData(){
             try{
-                const res = await fetch('https://djangotestapi1234.herokuapp.com/apiblog/blog-list/')
+                const res = await fetch('https://djangotestapi1234.herokuapp.com/apiblog/blog-search/?search=')
                 const name_data  = await res.json()
                 settipsTemp (name_data)
                 

@@ -6,7 +6,7 @@ function Utility(){
     useEffect(() => {
         async function fetchData(){
             try{
-                const res = await fetch('https://djangotestapi1234.herokuapp.com/apishop/Shop-list/')
+                const res = await fetch('https://djangotestapi1234.herokuapp.com/apishop/Shop-search/?search=')
                 const name_data  = await res.json()
                 setutilTemp (name_data)
                 

@@ -6,7 +6,7 @@ function Food(){
     useEffect(() => {
         async function fetchData(){
             try{
-                const res = await fetch('https://djangotestapi1234.herokuapp.com/apifoodcats/foodCats-list/')
+                const res = await fetch('https://djangotestapi1234.herokuapp.com/apifoodcats/foodCats-search/?search=')
                 const name_data  = await res.json()
                 setfoodTemp (name_data)
                 

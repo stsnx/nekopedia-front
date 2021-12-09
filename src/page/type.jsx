@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from "react";
 import './pagecontent.css';
 import SearchBar from "../components/SearchBar";
-import {Button} from "react-bootstrap";
+
 
 
 function Type(){
@@ -9,7 +9,7 @@ function Type(){
     useEffect(() => {
         async function fetchData(){
             try{
-                const res = await fetch('https://djangotestapi1234.herokuapp.com/apicats/Cats-list/')
+                const res = await fetch('https://djangotestapi1234.herokuapp.com/apicats/Cats-search/?search=')
                 const name_data  = await res.json()
                 setNameList(name_data)
                 
