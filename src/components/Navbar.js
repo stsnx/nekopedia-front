@@ -10,7 +10,6 @@ function NavBar() {
       <Nav className="navbar navbar-expand-sm navbar-light">
         <Navbar.Brand
           href="/home"
-          target="_blank"
         >
           <img
             src="https://github.com/ZionSS/NekoPedia-FrontEnd/blob/main/assets/NekoPedia%20Logo_2.2.png?raw=true"
