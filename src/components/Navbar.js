@@ -9,7 +9,7 @@ function NavBar() {
     <div>
       <Nav className="navbar navbar-expand-sm navbar-light">
         <Navbar.Brand
-          href="https://www.youtube.com/watch?v=pLQGfSQUuCM"
+          href="/home"
           target="_blank"
         >
           <img
