@@ -9,7 +9,7 @@ function Type(){
     useEffect(() => {
         async function fetchData(){
             try{
-                const res = await fetch('https://djangotestapi1234.herokuapp.com/apicats/Cats-search/?search=')
+                const res = await fetch('https://djangotestapi1234.herokuapp.com/apicats/Cats-list/')
                 const name_data  = await res.json()
                 setNameList(name_data)
                 
